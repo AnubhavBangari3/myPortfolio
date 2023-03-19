@@ -16,6 +16,10 @@
     ],
     "routes": [
       {
+        "src": "/design/src/(.*)",
+        "dest": "/design/src/index.js"
+      },
+      {
         "src": "/static/(.*)",
         "dest": "/static/$1"
       },

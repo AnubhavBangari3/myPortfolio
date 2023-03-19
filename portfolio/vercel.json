@@ -16,9 +16,12 @@
     ],
     "routes": [
       {
+        "src": "/design/(.*)",
+        "dest": "/desgin/$1"
+      },
+      {
         "src": "/(.*)",
         "dest": "portfolio/wsgi.py"
       }
-    ],
-    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+    ]
   }

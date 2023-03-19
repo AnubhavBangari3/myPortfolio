@@ -17,7 +17,7 @@
     "routes": [
       {
         "src": "/design/(.*)",
-        "dest": "/desgin/$1"
+        "dest": "/design/$1"
       },
       {
         "src": "/(.*)",

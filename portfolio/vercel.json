@@ -28,5 +28,8 @@
         "dest": "portfolio/wsgi.py"
       }
     ],
-    "rewrites": [{ "source": "/(.*)", "destination": "/design/src/index.js" }]
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/design/src/index.js" },
+      { "source": "/(.*)", "destination": "/portfolio/wsgi.py" }
+    ]
   }

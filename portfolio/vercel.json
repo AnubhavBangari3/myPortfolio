@@ -16,10 +16,6 @@
     ],
     "routes": [
       {
-        "src": "/(.*)",
-        "dest": "/design/src/index.js"
-      },
-      {
         "src": "/static/(.*)",
         "dest": "/static/$1"
       },
@@ -27,9 +23,6 @@
         "src": "/(.*)",
         "dest": "portfolio/wsgi.py"
       }
-    ],
-    "rewrites": [
-      { "source": "/(.*)", "destination": "design/src/index.js" },
-      { "source": "/(.*)", "destination": "portfolio/wsgi.py" }
     ]
+   
   }

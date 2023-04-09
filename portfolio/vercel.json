@@ -29,7 +29,7 @@
       }
     ],
     "rewrites": [
-      { "source": "/(.*)", "destination": "/design/src/index.js" },
-      { "source": "/(.*)", "destination": "/portfolio/wsgi.py" }
+      { "source": "/(.*)", "destination": "design/src/index.js" },
+      { "source": "/(.*)", "destination": "portfolio/wsgi.py" }
     ]
   }
